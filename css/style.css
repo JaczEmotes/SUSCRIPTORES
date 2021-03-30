@@ -68,13 +68,13 @@ header {
 header #logo img{
   margin: 10px;
   float: left;
-  width: 90px;
+  width: 80px;
 }
 
 header #logo img{
   margin: 20px;
   float: left;
-  width: 120px;
+  width: 100px;
 }
 /* NAVIGATION*/
 nav {
@@ -92,7 +92,7 @@ ul {
 }
 
 nav ul li {
-  font-size: 150%;
+  font-size: 120%;
   display: inline-block;
   float: left;
   padding: 10px;
