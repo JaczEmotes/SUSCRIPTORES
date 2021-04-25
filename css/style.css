@@ -353,51 +353,7 @@ footer.second p, .second a {
     width: 100%;
   }
 
-  .one-third {
-    float: left;
-    width: 100%;
 
-  }
-  .one-third img {
- font-size: 300%;
-
-  }
-  .icon-wrap {
-    height: 80px;
-    width: 80px;
-    margin-top: 3%;
-  }
-
-  .icon-wrap img {
-    font-size: 350%;
-    padding-top: 20%;
-  }
-
-  .left-col {
-    width: 100%;
-    padding: 0;
-  }
-
-  .sidebar {
-    width: 100%;
-  }
-
-  .one-third-padding {
-    width: 98%;
-    margin: 0;
-    padding: 1%;
-  }
-
-  .icon-text-icon {
-    width: 100%;
-    padding: 0 0 2% 0;
-  }
-
-  .icon-text-text {
-    width: 100%;
-    padding: 2% 0 0 0;
-    font-size: 80%;
-  }
 
   .footer-nav {
     margin: 0 auto;
