@@ -41,6 +41,16 @@ h3 {
   text-transform: uppercase;
   padding: 0;
 }
+h4 {
+  font-size: 175%;
+
+  line-height: 155%;
+  font-weight:bold;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+}
 
 a {
   color: #FFF;
@@ -49,6 +59,44 @@ a {
 }
 a:hover {
   color: #000000;
+}
+
+pm {
+  color: #FFF;
+  font-size: 120%;
+  line-height: 155%;
+  padding: 3%;
+  text-indent: 2%;
+  text-align: center;
+  float: inherit;
+  font-weight: bold;
+}
+
+u2 img{
+  width: 360px;
+  max-width:360px;
+  padding-right: 0px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  margin-top: 0 auto;
+  float:left;
+  width: 31.5%;
+  float: left;
+  padding: 10px;
+  text-align: center;
+}
+.slider2 {
+  width: 360px;
+  max-width:360px;
+  padding-right: 0px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  margin-top: 0 auto;
+  float:left;
+  width: 31.5%;
+  float: left;
+  padding: 10px;
+  text-align: center;
 }
 
 img {
@@ -103,7 +151,10 @@ nav {
 ul {
   list-style: none;
 }
-
+a img {
+  margin-left: auto;
+  margin-right: auto;
+}
 nav ul li {
   font-size: 120%;
   display: inline-block;
@@ -137,7 +188,7 @@ a:hover {
   float: none;
   display: inline-block;
   vertical-align: top;
-  padding: 10px 90px;
+  padding: 10px 70px;
   width: 250px;
 }
 
@@ -156,24 +207,17 @@ a:hover {
   margin-top: 0 auto;
 }
 .slider {
-  width: 360px;
-  max-width:360px;
-  padding-right: 0px;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
-  margin-top: 0 auto;
-  float:left;
-  width: 31.5%;
-  float: left;
-  padding: 10px;
+  width: 720px;
+  max-width: 720px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .slider img {
-  width: 360px;
-  max-width:360px;
-  padding-right: 0px;
-  margin-left: 0 auto;
+  width: 720px;
+  max-width:720px;
+  text-align: center;
   margin-right: 0 auto;
   margin-top: 0 auto;
 }*/
