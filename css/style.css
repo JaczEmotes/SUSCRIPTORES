@@ -238,6 +238,18 @@ a:hover {
   margin-top: 3%;
 }
 
+.Menus img {
+  width: 1080px;
+  height:520px;
+  float: none;
+  padding: 10px;
+}
+.Promos ul  {
+  width: 400px;
+  height:360px;
+  float: none;
+}
+
 .icon-wrap i {
   text-align: center;
   color: #ffffff;
