@@ -41,6 +41,10 @@ h3 {
   text-transform: uppercase;
   padding: 0;
 }
+ul {
+  list-style: none;
+}
+
 h4 {
   font-size: 175%;
 
@@ -148,9 +152,6 @@ nav {
   font-size: 50px;
 }
 
-ul {
-  list-style: none;
-}
 a img {
   margin-left: auto;
   margin-right: auto;
@@ -244,10 +245,13 @@ a:hover {
   float: none;
   padding: 10px;
 }
-.Promos ul  {
-  width: 400px;
-  height:360px;
-  float: none;
+
+
+.slider4{
+width: 70%;
+text-align: center;
+float: none;
+margin: 0 auto;
 }
 
 .icon-wrap i {
