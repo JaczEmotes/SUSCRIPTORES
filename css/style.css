@@ -245,10 +245,12 @@ a:hover {
   float: none;
   padding: 10px;
 }
-
+.Menus img:hover {
+color: #000000;
+}
 
 .slider4{
-width: 70%;
+width: 40%;
 text-align: center;
 float: none;
 margin: 0 auto;
@@ -398,21 +400,7 @@ footer.second p, .second a {
     display: inline-block;
   }
 
-  nav:hover ul {
-    display: block;
-  }
-
-  nav ul, nav:active ul {
-    display: none;
-    z-index: 1000;
-    position: absolute;
-    padding: 20px;
-    background: #020D6D;
-    border: 1px solid #a5bdcd;
-    right: 20px;
-    width: 30%;
-    opacity: .95;
-  }
+  
   nav li {
     text-align: center;
     width: 100%;
