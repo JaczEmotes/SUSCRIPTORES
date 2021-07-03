@@ -1,9 +1,169 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: arial;
 }
 
+.content-all{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.content-img{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+.content-img img{
+    width: 100%;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.content-1{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    background: rgba(215, 40, 40, 0.9);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    margin-left: -750px;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.content-2{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    background: rgba(215, 40, 40, 0.9);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    margin-left: -800px;
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.content-3{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    background: rgba(215, 40, 40, 0.9);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    margin-left: -800px;
+    margin-top: -500px;
+    -webkit-transition: all 900ms;
+    transition: all 900ms;
+    -webkit-box-shadow: 0px 1px 20px -5px black;
+    box-shadow: 0px 1px 20px -5px black;
+}
+
+.content-4{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    background: rgba(215, 40, 40, 0.9);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    margin-left: -850px;
+    margin-top: -500px;
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+}
+
+.content-img:hover .content-1{
+    width: 222%;
+    -webkit-transition: all 900ms;
+    transition: all 900ms;
+}
+
+.content-img:hover .content-2{
+    width: 222%;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.content-img:hover .content-3{
+    width: 222%;
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.content-img:hover .content-4{
+    width: 222%;
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+}
+
+.content-img:hover img{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    opacity: 0.8;
+}
+
+.content-txt{
+    position: absolute;
+    top: 0;
+    width: 400px;
+    padding: 10px;
+    z-index: 10;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.content-txt h2{
+    font-size: 30px;
+    opacity: 0;
+    -webkit-transform: scale(0.2);
+    transform: scale(0.2);
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.content-txt p{
+    font-size: 20px;
+    margin-top: 10px;
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.content-img:hover h2{
+    opacity: 1;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.content-img:hover p{
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+}
 #contenido{
   width: 1300px  ;
   padding: 0 auto;
@@ -29,7 +189,7 @@ p {
   line-height: 155%;
   padding: 3%;
   text-indent: 2%;
-  text-align: center;
+  text-align: justify;
 }
 
 h3 {
@@ -157,7 +317,7 @@ a img {
   margin-right: auto;
 }
 nav ul li {
-  font-size: 120%;
+  font-size: 100%;
   display: inline-block;
   float: left;
   padding: 10px;
@@ -190,7 +350,7 @@ a:hover {
   display: inline-block;
   vertical-align: top;
   padding: 10px 70px;
-  width: 250px;
+  width: 360px;
 }
 
 .sliderP p {
@@ -335,9 +495,9 @@ footer {
 }
 
 .footer-nav a {
-  font-size: 160%;
+  font-size: 140%;
   color: #FFF;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .footer-nav a:hover {
@@ -383,10 +543,10 @@ footer.second p, .second a {
 
 @media screen and (max-width: 1080px) {
   p {
-    font-size: 100%;
+    font-size: 120%;
   }
   h3 {
-    font-size: 150%;
+    font-size: 170%;
   }
   header {
     height: 80px;
@@ -396,7 +556,15 @@ footer.second p, .second a {
     margin: 15px 0 20px -25px;
   }
 
-
+  .FPI  img {
+    display: block;
+    max-width: 100%;
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 70px;
+    width: 360px;
+  }
 
 
 
@@ -413,4 +581,3 @@ footer.second p, .second a {
     float: right;
     width: 95%;
   }
-}
