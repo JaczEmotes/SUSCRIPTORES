@@ -39,10 +39,10 @@ ae{
 
 .content-1{
     width: 1000px;
-    height: 1000px;
+    height: 1000px
     position: absolute;
     top: 0;
-    background: rgba(215, 40, 40, 0.9);
+    background: rgba(215, 40, 40, 0.4);
     -webkit-transform: rotate(-30deg);
     transform: rotate(-30deg);
     margin-left: -750px;
@@ -55,7 +55,7 @@ ae{
     height: 1000px;
     position: absolute;
     top: 0;
-    background: rgba(215, 40, 40, 0.9);
+    background: rgba(215, 40, 40, 0.4);
     -webkit-transform: rotate(-30deg);
     transform: rotate(-30deg);
     margin-left: -800px;
@@ -68,7 +68,7 @@ ae{
     height: 1000px;
     position: absolute;
     top: 0;
-    background: rgba(215, 40, 40, 0.9);
+    background: rgba(215, 40, 40, 0.2);
     -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
     margin-left: -800px;
@@ -84,7 +84,7 @@ ae{
     height: 1000px;
     position: absolute;
     top: 0;
-    background: rgba(215, 40, 40, 0.9);
+    background: rgba(215, 40, 40, 0.2);
     -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
     margin-left: -850px;
@@ -302,7 +302,7 @@ img {
 #banner-wrapper {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 0 3% 0;
+  padding: 0 0 0 0;
 }
 
 header {
