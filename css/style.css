@@ -179,12 +179,11 @@ justify-content: center;
 }
 
 F {
-  background: url(../img/Pics/O1.png);
+  background-color: #D500FF;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   background-attachment: fixed;
-  background-color: #000000;
   font-family: sans-serif;
   margin: 0 auto;
 }
@@ -493,6 +492,7 @@ font-weight: bold;
 footer {
   background-color: #FFA800;
   width: 1500px;
+  margin-top: 25px;
 }
 .icon-text {
   width: 100%;
@@ -536,8 +536,8 @@ footer {
 
 .social i {
   font-size: 420%;
-  margin: 1%;
-  padding: 5%;
+  margin: 0.7%;
+  padding: 4%;
   color: #FFF;
 }
 
